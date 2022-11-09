@@ -1,0 +1,35 @@
+/*Fonts Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ShoeCards{
+   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Belleza', sans-serif;
+  padding: 5px 5px;
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: auto;
+   min-height: 100%;
+}
+
+.cardImages{
+  min-height: 100%;
+}
